@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'Demila' ;
+            src: url(fonts/Demiela_FreeVersion.otf) format('opentype') , url(fonts/Demiela_FreeVersion.ttf) format('truetype');
+
+            /*Tipos de format()
+            - opentype (otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography
+            - svg*/
+        }
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+       h1 {
+           font-family: 'Demila', 'Times New Roman', Times, serif;
+           font-size:3em;
+       }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos ipsam doloribus quaerat sit nisi nobis, maxime rem reiciendis. Harum voluptatibus odio magnam dicta facilis facere deleniti natus molestias dolore.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore, consequatur, excepturi, optio ullam voluptatibus assumenda voluptates magni consequuntur recusandae dolorum quaerat quod. Assumenda ipsam rem, consequatur cum repellat id.</p>
+</body>
+</html>

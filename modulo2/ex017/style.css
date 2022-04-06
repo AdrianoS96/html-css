@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* CSS safe font combinations */ 
+    /*
+    Medidas Absolutas
+    cm, mm, in(polegadas), px, pt, pc(paiica)
+
+    Medidas Relativas
+    em(medidado M), ex, rem,vw, vh, %
+
+    Recomendado W3C
+    px
+    em = % no tamanho padrão
+
+    1em = geralmente 16px
+    */ 
+    font-size: 1em;   
+}
+
+h1{
+    /*
+      font-family: 'Work Sans', sans-serif; -> tipo
+      font-weight: bolder; ->Peso
+        font-size: 3em; ->Tamaho  
+        font-style: italic;
+    */
+    /*shorthand
+        fonnt: font-style font-weight font-size font-family;
+        */  
+        font: italic bolder 3em 'Work Sans', sans-serif;
+    }
+
